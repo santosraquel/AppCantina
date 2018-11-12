@@ -28,6 +28,8 @@ public class Produto extends SugarRecord {
         this.nome = nome;
     }
 
+
+
     public double getValor() {
         return valor;
     }
