@@ -12,18 +12,22 @@ import com.orm.SchemaGenerator;
 import com.orm.SugarContext;
 import com.orm.SugarDb;
 
+import java.text.DecimalFormat;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText nome;
     private EditText valor;
     private Button salvar;
-
+    private DecimalFormat df;
     private Button listarProdutos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        df = new DecimalFormat("#0.00");
 
         // Configura as variáveis daqui para manipular os elementos da tela
         nome = (EditText) findViewById(R.id.editNome);
@@ -56,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     // Limpa os campos
                     nome.setText("");
                     valor.setText("");
+
 
                     // Da foco no campo nome
                     nome.requestFocus();

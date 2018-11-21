@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PersistenciaAPP.iml" filepath="$PROJECT_DIR$/PersistenciaAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppCantina.iml" filepath="$PROJECT_DIR$/AppCantina.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
